@@ -1,0 +1,233 @@
+{% load static %}
+
+{% block content %}
+
+    <head>
+        <title>Leonel Ferri-FullStack Developer</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+        <link rel="stylesheet" href="{% static 'theme1/assets/css/chart.css' %}"/>
+        <link rel="stylesheet" href="{% static 'theme1/assets/css/main.css' %}"/>
+
+        <link href="https://pro-next.fontawesome.com/releases/v5.5.0/css/all.css" data-prerender="keep" rel="stylesheet">
+    </head>
+    <body class="is-preload">
+
+    <!-- Nav -->
+    <nav id="nav">
+        <ul class="container">
+            <li><a href="#top">Top</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home -->
+    <article id="top" class="wrapper style1">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-5-large col-12-medium">
+                    <span class="image fit"><img src="{% static 'theme1/images/leonel_ferri.jpg' %}" alt=""/></span>
+                </div>
+                <div class="col-8 col-7-large col-12-medium">
+                    <header>
+                        <h1>Hi. I'm <strong> Leonel Ferri</strong>.</h1>
+                    </header>
+                    <p>And I am <strong>Python/Django</strong> full-stack developer.</p>
+                    <p>My main superpower - I solve problems and finish the job.
+                        I know what I can do and what I can not.
+                        Although I call myself as a developer I'm competent in a vast technology field.
+                        Now I'm 30 and the whole adult life I work and live in IT.</p>
+                    <h3>My Skill</h3>
+                    <ol>
+                        <li>Backend: Python/Django, Phalcon, Laravel, Zend, Yii</li>
+                        <li>Frontend: Angular, Node.js, React</li>
+                        <li>Javascript: jQuery, ajax</li>
+                        <li>HTML5, css3 (SASS, LESS, PostCSS)</li>
+                        <li>CSS Frameworks: Bootstrap, Foundation</li>
+                        <li>DataBase: Mysql, PostgreSQL, SQLite, MongoDB</li>
+                    </ol>
+                    <a href="#work" class="button large scrolly">Learn about what I do</a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- Work -->
+    <article id="work" class="wrapper style2">
+        <div class="container">
+            <header>
+                <h2>Here's all the stuff I do.</h2>
+                <p>I have excellent skills in Backend and Frontend develop. such as python/Django, Php, Angular, React,
+                    Bootstrap...</p>
+            </header>
+            <div class="row aln-center">
+                <div class="col-4 col-6-medium col-12-small">
+                    <section class="box style1">
+                        <span class="icon featured fa-thumbs-o-up"></span>
+                        <h3><i class="fab fa-python" style="font-size: 48px;"></i> python/Django</h3>
+                        <p>I am an accomplished python/Django expert with rich experience.
+                            I have extensive knowledge in <font color="red">Django</font>, <font
+                                    color="red">Postgresql</font>, <font color="red">REST API</font>, <font color="red">API
+                                integration</font>, <font color="red">Celery</font>, etc
+                            I am also very familiar with Linux/AWS(EC2, RDS, Beanstalk, S3 bucket, etc)</p>
+                    </section>
+                </div>
+                <div class="col-4 col-6-medium col-12-small">
+                    <section class="box style1">
+                        <span class="icon featured fa-camera-retro"></span>
+                        <h3><i class="fab fa-php" style="font-size: 48px;"></i> Frameworks</h3>
+                        <p>If I use PhpFrameworks, I can reduce develop time enormously
+                            Stability is another big reason developers are utilizing frameworks.
+                            Finally, the availability of PHP frameworks is extensive, and there are many different
+                            frameworks to choose from.</p>
+                    </section>
+                </div>
+                <div class="col-4 col-6-medium col-12-small">
+                    <section class="box style1">
+                        <span class="icon featured fa-comments-o"></span>
+                        <h3><i class="fab fa-react" style="font-size: 48px;"></i> Frontends</h3>
+                        <p>I have good exprience of 2 years in <font color="red">Angular</font>, <font
+                                color="red">React</font>
+                            and <font color="red">Bootstrap</font>.
+                            I am highly responsible for the mobile friendly, cross-browsing capability, pixel-perfect
+                            frontend.
+                            I always build responsive, beautiful and brilliant frontend.
+                        </p>
+                    </section>
+                </div>
+            </div>
+            <footer>
+                <p>Do you want to see my recent work?</p>
+                <a href="#portfolio" class="button large scrolly">See some of my recent work</a>
+            </footer>
+        </div>
+    </article>
+
+    <!--technical skills-->
+    <article id="tecnicalskills" class="wrapper style5">
+        <div class="container">
+            <header>
+                <h2>TECHNICAL SKILLS</h2>
+            </header>
+
+
+
+        </div>
+    </article>
+    <!--technical skills end-->
+
+    <!-- Portfolio -->
+    <article id="portfolio" class="wrapper style3">
+        <div class="container">
+            <header>
+                <h2>Here’s some stuff I made recently.</h2>
+            </header>
+            <div class="row">
+                <div class="col-4 col-6-medium col-12-small">
+                    <article class="box style2">
+                        <a href="https://savingschampion.co.uk/" class="image featured"><img src="{% static 'theme1/images/savingschampion.png' %}"
+                                                                alt=""/></a>
+                        <h3><a href="https://savingschampion.co.uk/">SAVINGS CHAMPION</a></h3>
+                        <p>Django, REST/SOAP, Celery/RabbitMQ, Postgresql, Mailchimp, AWS EC2/S3, Vagrant/CircleCI</p>
+                    </article>
+                </div>
+                <div class="col-4 col-6-medium col-12-small">
+                    <article class="box style2">
+                        <a href="https://www.boarddirector.co/" class="image featured"><img src="{% static 'theme1/images/boarddirector.png' %}"
+                                                                alt=""/></a>
+                        <h3><a href="https://www.boarddirector.co/">BOARD DIRECTOR</a></h3>
+                        <p>Django, REST API, Google/Office integration, Vue.js, Webpack/Gulp, Unittest</p>
+                    </article>
+                </div>
+                <div class="col-4 col-6-medium col-12-small">
+                    <article class="box style2">
+                        <a href="https://aiswitch.co.uk/" class="image featured"><img src="{% static 'theme1/images/aiswitch.png' %}"
+                                                                alt=""/></a>
+                        <h3><a href="https://aiswitch.co.uk/">AISWITCH</a></h3>
+                        <p>Django, Wordpress, REST API, Google blogger, Selenium/Phantomjs, integration</p>
+                    </article>
+                </div>
+                <div class="col-4 col-6-medium col-12-small">
+                    <article class="box style2">
+                        <a href="https://www.getlivesmart.com/" class="image featured"><img src="{% static 'theme1/images/livesmart.png' %}"
+                                                                alt=""/></a>
+                        <h3><a href="https://www.getlivesmart.com/">LIVESMART</a></h3>
+                        <p>Django, Shopify API, REST API, AngularJS, Celery/Redis, Postgresql</p>
+                    </article>
+                </div>
+                <div class="col-4 col-6-medium col-12-small">
+                    <article class="box style2">
+                        <a href="https://blogg.se/" class="image featured"><img src="{% static 'theme1/images/blogg.png' %}"
+                                                                alt=""/></a>
+                        <h3><a href="https://blogg.se/">BLOGG.SE</a></h3>
+                        <p>Flask, Memcached, Elastic Search, MongoDB</p>
+                    </article>
+                </div>
+                <div class="col-4 col-6-medium col-12-small">
+                    <article class="box style2">
+                        <a href="https://ln2x.com/en/" class="image featured"><img src="{% static 'theme1/images/ln2x.png' %}"
+                                                                alt=""/></a>
+                        <h3><a href="https://ln2x.com/en/">LIQUID NEXXUS</a></h3>
+                        <p>Django, Django Mezzanine, Salesforce, Postgresql</p>
+                    </article>
+                </div>
+            </div>
+            <footer>
+                <p>Do you want to get in touch with me?</p>
+                <a href="#contact" class="button large scrolly">Get in touch with me</a>
+            </footer>
+        </div>
+    </article>
+
+    <!-- Contact -->
+    <article id="contact" class="wrapper style4">
+        <div class="container medium">
+            <header>
+                <h2>Have me build project for you.</h2>
+            </header>
+            <div class="row">
+                <div class="col-12">
+                    <form id="subscribeForm" method="post">{% csrf_token %}
+                        <div class="row">
+                            <div class="col-6 col-12-small">
+                                {{ form.name }}
+                            </div>
+                            <div class="col-6 col-12-small">
+                                {{ form.email }}
+                            </div>
+                            <div class="col-12">
+                                {{ form.subject }}
+                            </div>
+                            <div class="col-12">
+                                {{ form.message }}
+                            </div>
+                            <div class="col-12">
+                                <ul class="actions">
+                                    <li><input type="submit" value="Send Message"/></li>
+                                    <li><input type="reset" value="Clear Form" class="alt"/></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <footer>
+                <ul id="copyright">
+                    <li>&copy; 2017 Leonel Ferri. All rights reserved</li>
+                </ul>
+            </footer>
+        </div>
+    </article>
+
+    <script src="{% static 'theme1/assets/js/jquery.min.js' %}"></script>
+    <script src="{% static 'theme1/assets/js/jquery.scrolly.min.js' %}"></script>
+    <script src="{% static 'theme1/assets/js/browser.min.js' %}"></script>
+    <script src="{% static 'theme1/assets/js/breakpoints.min.js' %}"></script>
+    <script src="{% static 'theme1/assets/js/util.js' %}"></script>
+    <script src="{% static 'theme1/assets/js/main.js' %}"></script>
+    <script src="{% static 'theme1/assets/js/chart.js' %}"></script>
+    </body>
+
+{% endblock %}
